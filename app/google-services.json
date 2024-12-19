@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "988770835930",
+    "project_id": "tiendazar2",
+    "storage_bucket": "tiendazar2.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:988770835930:android:c113a6ba4d259d3bfc34e3",
+        "android_client_info": {
+          "package_name": "tiendazar2.com"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBV-A1fp_o7xpPg8IGnF0-wGEPhxGkbhHE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
