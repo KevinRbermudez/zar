@@ -1,3 +1,14 @@
 <resources>
-    <string name="app_name">tinedazar2</string>
+    <string name="app_name">tiendazar2</string>
+    <string name="nombre_completo">Nombre completo</string>
+    <string name="correo_electr_nico">Correo electrónico</string>
+    <string name="confirmar_contrase_a">Confirmar contraseña</string>
+    <string name="registro">Registro</string>
+    <string name="registro_de_zar">Registro de Zar</string>
+    <string name="tiendazar2">TU_CLIENT_ID</string>
+
+
+    <!-- Nuevas cadenas para los botones -->
+    <string name="continuar_con_google">Continuar con Google</string>
+    <string name="continuar_con_facebook">Continuar con Facebook</string>
 </resources>

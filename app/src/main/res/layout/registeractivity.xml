@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="@android:color/white">
+
+    <!-- Título de la página -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Registro de Zar"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="24dp" />
+
+    <!-- Campo para el nombre completo -->
+    <EditText
+        android:id="@+id/editTextNombreCompleto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/nombre_completo"
+        android:inputType="textPersonName"
+        android:padding="12dp"
+        android:background="@android:drawable/edit_text" />
+
+    <!-- Campo para el correo electrónico -->
+    <EditText
+        android:id="@+id/editTextCorreoElectronico"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/correo_electr_nico"
+        android:inputType="textEmailAddress"
+        android:padding="12dp"
+        android:layout_marginTop="16dp"
+        android:background="@android:drawable/edit_text" />
+
+    <!-- Campo para la contraseña -->
+    <EditText
+        android:id="@+id/editTextContrasena"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Contraseña"
+        android:inputType="textPassword"
+        android:padding="12dp"
+        android:layout_marginTop="16dp"
+        android:background="@android:drawable/edit_text" />
+
+    <!-- Campo para confirmar la contraseña -->
+    <EditText
+        android:id="@+id/editTextConfirmarContrasena"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/confirmar_contrase_a"
+        android:inputType="textPassword"
+        android:padding="12dp"
+        android:layout_marginTop="16dp"
+        android:background="@android:drawable/edit_text" />
+
+    <!-- Botón de registro -->
+    <Button
+        android:id="@+id/buttonRegistro"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/registro"
+        android:layout_marginTop="24dp"
+        android:padding="12dp"
+        android:backgroundTint="@android:color/holo_blue_dark"
+        android:textColor="@android:color/white" />
+
+    <!-- Botón de inicio de sesión con Google -->
+    <Button
+        android:id="@+id/buttonGoogle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Continuar con Google"
+        android:layout_marginTop="16dp"
+        android:padding="12dp"
+        android:backgroundTint="@android:color/holo_red_dark"
+        android:textColor="@android:color/white"
+        android:drawableStart="@drawable/google"
+        android:drawablePadding="8dp" />
+
+    <!-- Botón de inicio de sesión con Facebook -->
+    <Button
+        android:id="@+id/buttonFacebook"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Continuar con Facebook"
+        android:layout_marginTop="16dp"
+        android:padding="12dp"
+        android:backgroundTint="@android:color/holo_blue_dark"
+        android:textColor="@android:color/white"
+        android:drawableStart="@drawable/facebook"
+        android:drawablePadding="8dp" />
+
+</LinearLayout>

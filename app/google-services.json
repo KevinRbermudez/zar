@@ -12,7 +12,20 @@
           "package_name": "tiendazar2.com"
         }
       },
-      "oauth_client": [],
+      "oauth_client": [
+        {
+          "client_id": "988770835930-14uopduhmmif7prvqg0rfl5sv0tl8c1r.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "tiendazar2.com",
+            "certificate_hash": "ded8b734a88d48d07bab60019f2de456ce9dcc20"
+          }
+        },
+        {
+          "client_id": "988770835930-3sk6lv3vnmt2un4hd599jt039i5e9n0t.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
       "api_key": [
         {
           "current_key": "AIzaSyBV-A1fp_o7xpPg8IGnF0-wGEPhxGkbhHE"
@@ -20,7 +33,12 @@
       ],
       "services": {
         "appinvite_service": {
-          "other_platform_oauth_client": []
+          "other_platform_oauth_client": [
+            {
+              "client_id": "988770835930-3sk6lv3vnmt2un4hd599jt039i5e9n0t.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
         }
       }
     }
